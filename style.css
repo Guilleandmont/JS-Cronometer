@@ -16,7 +16,7 @@ body {
     font-size: 5em;
 }
 
-.start-btn {
+#btn {
     background-color: transparent;
     border: 5px solid #202033;
     border-radius: 100px;
