@@ -1,6 +1,6 @@
 
 
-let cronometer = document.querySelector(".cronometer");
+let chronometer = document.querySelector(".chronometer");
 let button = document.querySelector(".start-btn");
 
 function timer() { 
@@ -8,7 +8,7 @@ function timer() {
     let minutes = "00";
     let hours = "00";
     setInterval(() => {
-        cronometer.textContent = `${hours}:${minutes}:${seconds}`;
+        chronometer.textContent = `${hours}:${minutes}:${seconds}`;
         seconds++;
         if (parseInt(seconds) < 10){
             seconds = "0" + seconds;
