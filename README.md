@@ -15,7 +15,7 @@ Every time *timer()* is executed, the amount of seconds is incremented, and the 
 
 Many. Amongs them:
 
-<li> The most glaring is that there is no way to stop! Will work on this later.
-<li> The variables are constantly juggled between being strings and numbers. This can be made more elegant. The variables must be strings so we can display single digits in a correct way (for example, 01:02:03).
-<li> Too many ifs. There should be no problem since this is just a small chronometer, but for bigger applications loops and ifs should be minimized! 
+<li> The most glaring is that there is no way to stop! Will work on this later. SOLVED
+<li> The variables are constantly juggled between being strings and numbers. This can be made more elegant. The variables must be strings so we can display single digits in a correct way (for example, 01:02:03). SOLVED 
+<li> Too many ifs. There should be no problem since this is just a small chronometer, but for bigger applications loops and ifs should be minimized! sort of SOLVED
 
